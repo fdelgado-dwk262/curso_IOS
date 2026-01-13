@@ -9,3 +9,10 @@ URL .-
 * https://developer.apple.com/documentation/swift/
 * https://developer.apple.com/testflight/
 * https://firebase.google.com/?hl=es-419
+* https://github.com
+
+
+URL .- con documenation
+* https://oscarmoreno.com/es/blog/colecciones-swift/
+* https://jsonapi.org
+* https://git-scm.com
