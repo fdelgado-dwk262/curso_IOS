@@ -11,6 +11,12 @@ Indice .-
 * 02-cadenas
 * 03-colecciones
 * 04-sentenias
+* 05-funciones
+
+Al descargar el proyecto te encuentras dos carpetas
+* curso-ios ( el proyecto de swift )
+* MiDoc ( documentación variada )
+
 
 URL.- documentacion de swift
 * https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
