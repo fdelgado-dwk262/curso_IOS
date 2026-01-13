@@ -56,4 +56,26 @@ repeat {
     i+=1
 } while i < 5
 
-//
+// Ejemplo
+let nifrioniCalor = 0
+let haceFresco = 10
+let templado = 20
+let calor = 30
+let measo = 40
+
+var temperatura = -3
+
+for temperatura in -5...45 {
+   print("La temperatura de la calle es \(temperatura)")
+    if ( temperatura <= nifrioniCalor) {
+        print("🥶hace mucho frio")
+    } else if ( temperatura <= haceFresco && temperatura > nifrioniCalor) {
+        print("🧣hace frio")
+    } else if ( temperatura <= templado && temperatura > haceFresco) {
+        print("🧤hace templado")
+    } else if ( temperatura <= calor && temperatura > templado) {
+        print("🥵hace calor")
+    } else {
+        print("🔥nos asamos de calor")
+    }
+}
