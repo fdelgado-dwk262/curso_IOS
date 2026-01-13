@@ -39,7 +39,7 @@ var cadenaConVariables: String
 var numeropruebas = 5
 let esAdulto = true
 
-// Interpolacion
+// Interpolacion <- de examen
 // uso de una variable dentro de un string, pequeñas operaciones y/o ternarios
 
 cadenaConVariables = """
@@ -59,4 +59,37 @@ cadena02[cadena02.startIndex]
 print(cadena02 == cadena03.lowercased())
 
 print(cadena02.uppercased() == cadena03)
+// ---------------------------------------
+// anexo Algebra de Bool
+// operadoes lógicos
 
+/*
+AND (Y lógico): Solo es True si ambos operandos son True.
+True AND True = True
+True AND False = False
+False AND True = False
+False AND False = False
+
+OR (O lógico): Es True si al menos un operando es True.
+True OR True = True
+True OR False = True
+False OR True = True
+False OR False = False
+
+NOT (Negación): Invierte el valor.
+NOT True = False
+NOT False = True 
+*/
+var variableBool: Bool
+
+// Y ( and ) &&
+
+variableBool = true && true
+print(variableBool)
+
+print("----------------------------")
+
+// O ( or ) ||
+
+variableBool = true || false
+print(variableBool)

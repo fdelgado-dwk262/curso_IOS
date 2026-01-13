@@ -27,3 +27,12 @@ print(todosArrays)
 print(todosArrays.count)
 // posicion concreta del array
 print(todosArrays[2])
+// cantidad o longitud del array
+print(todosArrays.count)
+
+// al usar un array y poner un . depues se habilita la infromación
+// de las operaciones / funciones que podemos tener al respecto
+print(todosArrays.isEmpty)
+
+print("-----------------------")
+

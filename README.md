@@ -2,6 +2,13 @@
 Curso Sepe Hacerta IOS 300h
 12 enero 2026 - 30 marzo 2026
 
+Indice .- 
+* 01-tipos
+* 02-cadenas
+* 03-colecciones
+* 04-sentenias
+
+
 URL .- 
 * https://developer.apple.com
 * https://www.swift.org
