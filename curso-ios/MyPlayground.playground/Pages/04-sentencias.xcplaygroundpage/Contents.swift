@@ -79,3 +79,39 @@ for temperatura in -5...45 {
         print("🔥nos asamos de calor")
     }
 }
+
+// nota .- podríamos hacer un jercicio con tuplas
+
+// --------------------------
+
+// Asignacion con Expresiones condicionales
+
+let consejo: String
+
+consejo = if temperatura <= nifrioniCalor {
+    "abrigate mucho"
+} else if temperatura > nifrioniCalor {
+    "revisa tu armario"
+} else {
+    "prueba otra ropa"
+}
+
+print(consejo)
+
+
+// Switch .- varias comparativas sin necesidad de if - ele if anidado
+let valor = 6
+switch valor {
+    case 5:
+        print("vale 5")
+    case 3:
+        print("vale 3")
+    // caso con un rango como ejemplo y con una ternaria dentro
+    case 6...10:
+        valor > 8 ? print("por encima de 8"):print("por debajo de 8")
+        print("en rango de 6 a 10")
+    default:
+        print("otro valor")
+}
+// en switch control de flujo con "continue" o "break" revisar documentacion
+
