@@ -2,6 +2,10 @@
 Curso Sepe Hacerta IOS 300h
 12 enero 2026 - 30 marzo 2026
 
+Clonado del proyecto desde el repo
+git clone https://github.com/fdelgado-dwk262/curso_IOS.git
+
+
 Indice .- 
 * 01-tipos
 * 02-cadenas
