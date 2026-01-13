@@ -47,6 +47,8 @@ Hola \(caracter1)
 eres el numero: \(numeropruebas) y 
 si sumamos 5 \(numeropruebas + 2) 
 o un ternario : \(esAdulto ? "si 🥸" : "no 🫣")
+
+Nota.-  se sacan desde Mac con la tecla fn
 """
 print(cadenaConVariables)
 
