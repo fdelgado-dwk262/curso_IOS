@@ -163,26 +163,3 @@ usarFuncionGenerica(sumar, a: 1, b: 3)
 usarFuncionGenerica(restar, a: 1, b: 3)
 
 // --------------------------------
-
-// ejercicio a desarrollar
-// calculadora
-// pendiuente de hacer un cast
-
- 
- func calculadoraBase (_ a:Int,_ b:Int,_ operacion:String) -> Int {
-    var result: Int
-    if operacion == "suma" {
-        result = a+b
-    } else if operacion == "resta" {
-        result = a-b
-    } else if operacion == "mutiplicacion" {
-        result = a*b
-    } else if operacion == "dividir" {
-        result = a/b
-    } else {
-    result = 0
-    }
-    return result
-}
- 
-print("la suma \(calculadoraBase(2,2,"suma"))")

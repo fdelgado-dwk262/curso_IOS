@@ -1,0 +1,143 @@
+// Ejercicios de pruebas
+
+import Foundation
+
+/*
+ 🟢 Nivel 1 – Fundamentos y lógica básica
+ 1️⃣ Variables y constantes
+ Declara una constante con tu nombre y una variable con tu edad.
+ Imprime una frase del tipo:
+ "Me llamo ___ y tengo ___ años"
+ Cambia la edad y vuelve a imprimirla.
+ 2️⃣ Operaciones con números
+ Declara dos variables a y b.
+ Calcula:
+ suma
+ resta
+ multiplicación
+ división
+ Imprime los resultados con texto explicativo.
+ 3️⃣ Cadenas (String)
+ Declara una frase.
+ Imprime:
+ número de caracteres
+ la frase en mayúsculas
+ la frase en minúsculas
+ Comprueba si la frase contiene una palabra concreta (por ejemplo "Swift").
+*/
+
+
+/*
+ 🟡 Nivel 2 – Arrays y colecciones
+ 4️⃣ Array de enteros
+ Crea un array con 5 números.
+ Imprime:
+ el primer y último elemento
+ el número total de elementos
+ Añade un número nuevo y elimina otro.
+ Recorre el array con un for e imprime cada valor.
+ 5️⃣ Array de cadenas
+ Crea un array con nombres de personas.
+ Imprime solo los nombres que tengan más de 5 caracteres.
+ Ordena el array alfabéticamente e imprímelo.
+ 6️⃣ Suma de valores en un array
+ Dado un array de números enteros:
+ calcula la suma total
+ calcula la media
+ Imprime ambos resultados.
+ */
+ 
+ /*
+ 🟠 Nivel 3 – Diccionarios
+ 7️⃣ Diccionario simple
+ Crea un diccionario donde:
+ la clave sea el nombre de una persona
+ el valor sea su edad
+ Imprime la edad de una persona concreta.
+ Añade una nueva persona y elimina otra.
+ 8️⃣ Recorrer un diccionario
+ Recorre el diccionario anterior.
+ Imprime frases como:
+ "Ana tiene 23 años"
+ 9️⃣ Diccionario + lógica
+ A partir del diccionario de edades:
+ imprime solo las personas mayores de 18 años
+ cuenta cuántas personas hay en total
+*/
+
+/*
+ 🔵 Nivel 4 – Conjuntos (Set)
+ 🔟 Set de números
+ Crea un conjunto con números repetidos.
+ Comprueba que no se repiten.
+ Añade y elimina elementos.
+ Comprueba si un número concreto existe en el conjunto.
+ 1️⃣1️⃣ Operaciones entre conjuntos
+ Crea dos conjuntos de números.
+ Calcula:
+ unión
+ intersección
+ diferencia
+ Imprime los resultados.
+*/
+
+/*
+ 🟣 Nivel 5 – Ejercicios combinados
+ 1️⃣2️⃣ Análisis de una frase
+ Dada una frase:
+ separa las palabras
+ guarda las palabras en un array
+ usa un Set para contar cuántas palabras distintas hay
+ Imprime:
+ número total de palabras
+ número de palabras únicas
+ 1️⃣3️⃣ Mini gestor de alumnos
+ Usa un diccionario donde:
+ clave → nombre del alumno
+ valor → array de notas
+ Para cada alumno:
+ calcula la media
+ indica si está aprobado (media ≥ 5)
+*/
+
+/*
+ 🧠 Retos opcionales
+ Escribe una función que reciba un array de enteros y devuelva el mayor.
+ Dada una palabra, comprueba si es un palíndromo.
+ Convierte una frase en camelCase.
+*/
+
+
+
+
+
+
+
+
+// -------------------------------------
+
+// ejercicio a desarrollar
+// calculadora
+// pendiente de hacer un cast
+
+ 
+ func calculadoraBase (_ a:Int,_ b:Int,_ operacion:String) -> Int {
+    var result: Int
+    if operacion == "suma" {
+        result = a+b
+    } else if operacion == "resta" {
+        result = a-b
+    } else if operacion == "mutiplicacion" {
+        result = a*b
+    } else if operacion == "dividir" {
+        result = a/b
+    } else {
+    result = 0
+    }
+    return result
+}
+ 
+print("la suma \(calculadoraBase(2,2,"suma"))")
+print("la resta \(calculadoraBase(2,2,"resta"))")
+print("la multiplicacion \(calculadoraBase(2,2,"multiplicacion"))")
+print("la division \(calculadoraBase(2,2,"dividir"))")
