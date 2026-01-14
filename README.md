@@ -12,10 +12,12 @@ Indice .-
 * 03-colecciones
 * 04-sentenias
 * 05-funciones
+* 06-colecciones-array
+* 07-colecciones-conjuntos
 
 Al descargar el proyecto te encuentras dos carpetas
 * curso-ios ( el proyecto de swift )
-* MiDoc ( documentación variada )
+* MiDoc ( documentación variada <>)
 
 
 URL.- documentacion de swift
