@@ -1,5 +1,5 @@
 //Manejo de cadenas
-
+// documentacion .- https://swift-book-es.vercel.app/guia-del-lenguaje/cadenas-y-caracteres
 import Foundation
 
 var miString = "hola"

@@ -26,7 +26,46 @@ import Foundation
  Comprueba si la frase contiene una palabra concreta (por ejemplo "Swift").
 */
 
+// documentacion de cadenas
+// https://swift-book-es.vercel.app/guia-del-lenguaje/cadenas-y-caracteres
 
+// 1️⃣ Variables y constantes
+let nombre: String = "Fernando"
+var edad: Int = 50
+
+print("Me llamo \(nombre) y tengo \(edad) años")
+
+// 2️⃣ Operaciones con números
+let a: Int = 5
+let b: Int = 2
+
+print("Suma: \(a + b)")
+print("Resta: \(a - b)")
+print("Multiplicación: \(a * b)")
+print("División entera: \(a / b)")
+
+// División con decimales
+let divisionDecimal = Double(a) / Double(b)
+print("División decimal: \(divisionDecimal)")
+
+// 3️⃣ Cadenas (String)
+let cadena: String = "Lorem ipsum dolor sit amet"
+
+print("Número de caracteres: \(cadena.count)")
+print(cadena.uppercased())
+print(cadena.lowercased())
+
+let frase = "Hola, bienvenido al curso de Swift"
+let subcadena = "bienvenido"
+
+if frase.contains(subcadena) {
+    print("La subcadena existe")
+} else {
+    print("Subcadena no encontrada")
+}
+
+// -------------------------------------
+print(" \n --------------------------------------------- \n")
 /*
  🟡 Nivel 2 – Arrays y colecciones
  4️⃣ Array de enteros
@@ -46,7 +85,14 @@ import Foundation
  calcula la media
  Imprime ambos resultados.
  */
+
+// documentacion colecciones
+// https://swift-book-es.vercel.app/guia-del-lenguaje/tipos-de-colecciones
  
+// 4️⃣ Array de enteros
+// 5️⃣ Array de cadenas
+// 6️⃣ Suma de valores en un array
+
  /*
  🟠 Nivel 3 – Diccionarios
  7️⃣ Diccionario simple
@@ -115,7 +161,7 @@ import Foundation
 
 
 // -------------------------------------
-
+print(" \n --------------------------------------------- \n")
 // ejercicio a desarrollar
 // calculadora
 // pendiente de hacer un cast
