@@ -17,6 +17,7 @@ Indice .-
 * 08-colecciones-diccionarios
 * 09-ejercicios
 * 10-enumeraciones
+* 11-estructuras
 
 Al descargar el proyecto te encuentras dos carpetas
 * curso-ios ( el proyecto de swift )
@@ -41,3 +42,6 @@ URL .- con documenation
 * https://oscarmoreno.com/es/blog/colecciones-swift/
 * https://jsonapi.org
 * https://git-scm.com
+
+URL .- playgrioud online
+* https://swiftfiddle.com

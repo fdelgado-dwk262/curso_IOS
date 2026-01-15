@@ -62,3 +62,45 @@ enum DiasClase02 : CaseIterable {
 for index in DiasClase02.allCases {
     print(index)
 }
+
+// ----------------------------------------
+
+// RAW values .- asignar un valor dentro de un enum
+
+enum DiasSemanaconNombre: String, CaseIterable{
+    case lunes = "😩Lunes"
+    case martes = "😳Martes"
+    case miercoles = "😉Miercoles"
+    case jueves = "😌Jueves"
+    case viernes = "😁Viernes"
+    case sabado = "😎Sabado"
+    case domingo = "🤩Domingo"
+}
+
+enum Numeros: Int, CaseIterable {
+    case primero = 1
+    case segundo = 2
+    case tercero
+}
+
+for index in DiasSemanaconNombre.allCases {
+    print(index.rawValue)
+}
+
+for index in Numeros.allCases {
+    print(index.rawValue)
+}
+
+// ejemplo de acceso a un valor de una case de un enum
+var demoAccesoAValor = DiasSemanaconNombre.sabado.rawValue
+print(demoAccesoAValor)
+
+// si no se devin valor en el enum nos da el nombre del case
+print(Numeros.tercero)
+
+
+// nota usos en configuraciones con la anotacion .dato
+// lineas 29 -35
+// variable  = al enunciado
+// variable = .nombre caso
+
