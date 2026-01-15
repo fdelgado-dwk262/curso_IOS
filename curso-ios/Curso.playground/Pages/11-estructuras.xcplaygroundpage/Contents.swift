@@ -135,3 +135,32 @@ print(miDiv)
 
 miCalculadora.acumular(x: 3, y: 3)
 print( miCalculadora.a, miCalculadora.b)
+
+
+
+// Caso de uso con
+// Estructura con una estructura interna o anidada
+
+
+struct PersonaAnidada {
+    var nombre: String
+    var apellido: String
+    var edad: Int
+    var direccion : Direccion
+    
+    struct Direccion {
+        var calle : String
+        var numero : Int
+        var codigoPostal : Int
+    }
+}
+
+var personaanidada : PersonaAnidada
+var direccionanidada : PersonaAnidada.Direccion
+
+direccionanidada = PersonaAnidada.Direccion(calle: "Calle Mayor", numero: 30, codigoPostal: 28001)
+
+personaanidada = PersonaAnidada(nombre: "Juan", apellido: "Perez", edad: 30, direccion: direccionanidada)
+
+print(personaanidada.direccion.calle)
+

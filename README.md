@@ -18,6 +18,7 @@ Indice .-
 * 09-ejercicios
 * 10-enumeraciones
 * 11-estructuras
+* 12-Clases
 
 Al descargar el proyecto te encuentras dos carpetas
 * curso-ios ( el proyecto de swift )
