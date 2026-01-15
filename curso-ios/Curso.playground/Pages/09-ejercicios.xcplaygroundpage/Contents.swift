@@ -90,8 +90,38 @@ print(" \n --------------------------------------------- \n")
 // https://swift-book-es.vercel.app/guia-del-lenguaje/tipos-de-colecciones
  
 // 4️⃣ Array de enteros
+var arrayEnteros:[Int] = [1,2,3,4,5,6,7,8,9]
+var contador = arrayEnteros.count - 1
+print(arrayEnteros[contador])
+print(arrayEnteros[0])
+arrayEnteros.append(10)
+arrayEnteros.remove(at: 2)
+print(arrayEnteros)
+
+for item in arrayEnteros {
+    print(item)
+}
+        
 // 5️⃣ Array de cadenas
+var arrayCadenas:[String] = ["ee", "cccc", "aaaaa", "bbb", "ddddd"]
+
+for cadena in arrayCadenas {
+    if cadena.count == 5 {
+        print(cadena)
+    }
+}
+
+print(arrayCadenas.sorted())
+
+
 // 6️⃣ Suma de valores en un array
+var suma:Int = 0
+for item in arrayEnteros {
+    suma = suma + item
+}
+print(suma)
+
+
 
  /*
  🟠 Nivel 3 – Diccionarios

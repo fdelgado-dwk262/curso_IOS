@@ -14,6 +14,9 @@ Indice .-
 * 05-funciones
 * 06-colecciones-array
 * 07-colecciones-conjuntos
+* 08-colecciones-diccionarios
+* 09-ejercicios
+* 10-enumeraciones
 
 Al descargar el proyecto te encuentras dos carpetas
 * curso-ios ( el proyecto de swift )
