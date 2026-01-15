@@ -92,3 +92,46 @@ print(personaB.nombre)
 
 // comparar las estructuras
 // pendiente ( faltan tema de protocolos )
+
+// -----------------------------------------
+// Métodos dentro de las estructuras
+// o Estructuras con funciones
+
+struct Calculadora {
+    var a : Int
+    var b : Int
+    
+    func Sumar() -> Int {
+        return a + b
+    }
+    func Restar() -> Int {
+        return a - b
+    }
+    func multiplicar() -> Int {
+        return a * b
+    }
+    func Dividir() -> Float {
+        return Float(a) / Float(b)
+    }
+    
+    // Si queremos modificar las variable sinternas de la estructura
+    // usar mutating
+    mutating func acumular(x: Int, y: Int) {
+        a = a+1
+        b = b+1
+    }
+}
+
+var miCalculadora = Calculadora(a: 5, b: 2 )
+
+var miSuma = miCalculadora.Sumar()
+var miResta = miCalculadora.Restar()
+var miMulti = miCalculadora.multiplicar()
+var miDiv = miCalculadora.Dividir()
+print(miSuma)
+print(miResta)
+print(miMulti)
+print(miDiv)
+
+miCalculadora.acumular(x: 3, y: 3)
+print( miCalculadora.a, miCalculadora.b)
