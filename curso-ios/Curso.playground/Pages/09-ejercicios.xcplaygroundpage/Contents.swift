@@ -191,7 +191,7 @@ print(" \n -------------------4-------------------------- \n")
 
 var conjuntoA: Set<Int> = [1,2,3,4,5,6,6,6,6,6]
 for datoA in conjuntoA.sorted() {
-    print(datoA)
+    print("dato: \(datoA)")
 }
 
 
@@ -209,6 +209,7 @@ setA.isSubset(of: setB) // false
 setB.isSuperset(of: setA) // false
 
 setA.isDisjoint(with: setB) // false (tienen el 3)
+print("--->", unionSet, intersectionSet, subtractingSet, symmetricDiffSet)
 
 print(" \n -------------------5-------------------------- \n")
 /*
@@ -230,6 +231,20 @@ print(" \n -------------------5-------------------------- \n")
  calcula la media
  indica si está aprobado (media ≥ 5)
 */
+
+// 1️⃣2️⃣ Análisis de una frase
+var fraseToArray:String = "quisquam est qui dolorem ipsum quia dolor dolor dolor"
+var arrayPalabras: [String] = []
+print(fraseToArray, arrayPalabras)
+
+for palabra in fraseToArray.split(separator: " ") {
+    arrayPalabras.append(String(palabra))
+}
+print(arrayPalabras)
+// nunmero de elementos del array
+print(arrayPalabras.count)
+// palabras únicas ?
+
 
 print(" \n -------------------reto-------------------------- \n")
 /*
