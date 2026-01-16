@@ -218,5 +218,3 @@ print("la suma \(calculadoraBase(2,2,"suma"))")
 print("la resta \(calculadoraBase(2,2,"resta"))")
 print("la multiplicacion \(calculadoraBase(2,2,"multiplicacion"))")
 print("la division \(calculadoraBase(2,2,"dividir"))")
-
-//demo
