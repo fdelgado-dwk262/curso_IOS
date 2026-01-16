@@ -25,7 +25,8 @@ Indice .-
 * 13-ejercicio
 * 14-protocolos
 * 15-protocolos-multiples
-* 15-protocolos-multiples_02. ( == <> ordenacion )
+* 16-protocolos-multiples_02. ( == <> ordenacion )
+* 17-closure-anonimas
 
 Al descargar el proyecto te encuentras dos carpetas
 * curso-ios ( el proyecto de swift )
