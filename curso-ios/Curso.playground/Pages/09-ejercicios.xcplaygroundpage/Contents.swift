@@ -2,6 +2,8 @@
 
 import Foundation
 
+
+print(" \n -------------------1-------------------------- \n")
 /*
  🟢 Nivel 1 – Fundamentos y lógica básica
  1️⃣ Variables y constantes
@@ -65,7 +67,7 @@ if frase.contains(subcadena) {
 }
 
 // -------------------------------------
-print(" \n --------------------------------------------- \n")
+print(" \n -------------------2-------------------------- \n")
 /*
  🟡 Nivel 2 – Arrays y colecciones
  4️⃣ Array de enteros
@@ -119,10 +121,10 @@ var suma:Int = 0
 for item in arrayEnteros {
     suma = suma + item
 }
-print(suma)
+print("Suma de los daso del array \(suma)")
 
 // -------------------------------------
-print(" \n --------------------------------------------- \n")
+print(" \n -------------------3-------------------------- \n")
 
  /*
  🟠 Nivel 3 – Diccionarios
@@ -142,6 +144,33 @@ print(" \n --------------------------------------------- \n")
  cuenta cuántas personas hay en total
 */
 
+
+// 7️⃣ Diccionario simple
+var diccionarioEdades:[String:Int] = ["Ana":23, "Luis":34, "Sofía":9, "Alejandra" : 14]
+print("Edad de Ana: \(diccionarioEdades["Ana"]!)")
+diccionarioEdades["María"]=25
+diccionarioEdades.removeValue(forKey: "Luis")
+print(diccionarioEdades)
+
+// 8️⃣ Recorrer un diccionario
+
+for (nombre, edad) in diccionarioEdades {
+    print("usuario \(nombre) \(edad)")
+}
+
+// 9️⃣ Diccionario + lógica
+
+var cont: Int = 0
+print("mayores de edad: ")
+for (nombre, edad) in diccionarioEdades {
+    
+    if edad >= 18 {
+        print("usuario \(nombre) \(edad)")
+        cont += 1
+    }
+}
+print("total \(cont)")
+print(" \n -------------------4-------------------------- \n")
 /*
  🔵 Nivel 4 – Conjuntos (Set)
  🔟 Set de números
@@ -158,6 +187,21 @@ print(" \n --------------------------------------------- \n")
  Imprime los resultados.
 */
 
+//🔟 Set de números
+
+var conjuntoA: Set<Int> = [1,3,5,6,7,9,0,3,2,7]
+
+for dato in conjuntoA {
+    
+    
+    
+}
+
+
+//1️⃣1️⃣ Operaciones entre conjuntos
+
+
+print(" \n -------------------5-------------------------- \n")
 /*
  🟣 Nivel 5 – Ejercicios combinados
  1️⃣2️⃣ Análisis de una frase
@@ -177,6 +221,7 @@ print(" \n --------------------------------------------- \n")
  indica si está aprobado (media ≥ 5)
 */
 
+print(" \n -------------------reto-------------------------- \n")
 /*
  🧠 Retos opcionales
  Escribe una función que reciba un array de enteros y devuelva el mayor.
@@ -192,7 +237,9 @@ print(" \n --------------------------------------------- \n")
 
 
 // -------------------------------------
-print(" \n --------------------------------------------- \n")
+print("\n---------------------------------------------")
+print("-----------Calculadora cutre ----------------")
+print("--------------------------------------------- \n")
 // ejercicio a desarrollar
 // calculadora
 // pendiente de hacer un cast
