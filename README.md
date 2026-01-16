@@ -5,6 +5,8 @@ Curso Sepe Hacerta IOS 300h
 Clonado del proyecto desde el repo
 git clone https://github.com/fdelgado-dwk262/curso_IOS.git
 
+## git hub del profesor curso .- 
+https://github.com/eduoie/Curso-iOS
 
 Indice .- 
 * 01-tipos
@@ -46,3 +48,5 @@ URL .- con documenation
 * https://oscarmoreno.com/es/blog/colecciones-swift/
 * https://jsonapi.org
 * https://git-scm.com
+
+
