@@ -24,6 +24,8 @@ Indice .-
 * 12-clases
 * 13-ejercicio
 * 14-protocolos
+* 15-protocolos-multiples
+* 15-protocolos-multiples_02. ( == <> ordenacion )
 
 Al descargar el proyecto te encuentras dos carpetas
 * curso-ios ( el proyecto de swift )

@@ -45,5 +45,5 @@ struct Coche: Vehiculo {
     }
 }
 
-var coche01 = Coche(marca: "nissa", velocidadActiual: 100)
+var coche01 = Coche(marca: "nissa", velocidadActiual: 10e0)
 print(coche01.describir())
