@@ -18,7 +18,8 @@ Indice .-
 * 09-ejercicios
 * 10-enumeraciones
 * 11-estructuras
-* 12-Clases
+* 12-clases
+* 13-ejercicio
 
 Al descargar el proyecto te encuentras dos carpetas
 * curso-ios ( el proyecto de swift )
@@ -28,6 +29,8 @@ Al descargar el proyecto te encuentras dos carpetas
 URL.- documentacion de swift
 * https://docs.swift.org/swift-book/documentation/the-swift-programming-language/
 
+URL .- playgrioud online
+* https://swiftfiddle.com
 
 URL .- 
 * https://developer.apple.com
@@ -43,6 +46,3 @@ URL .- con documenation
 * https://oscarmoreno.com/es/blog/colecciones-swift/
 * https://jsonapi.org
 * https://git-scm.com
-
-URL .- playgrioud online
-* https://swiftfiddle.com
