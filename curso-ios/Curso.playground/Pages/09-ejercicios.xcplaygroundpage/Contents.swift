@@ -189,17 +189,26 @@ print(" \n -------------------4-------------------------- \n")
 
 //🔟 Set de números
 
-var conjuntoA: Set<Int> = [1,3,5,6,7,9,0,3,2,7]
-
-for dato in conjuntoA {
-    
-    
-    
+var conjuntoA: Set<Int> = [1,2,3,4,5,6,6,6,6,6]
+for datoA in conjuntoA.sorted() {
+    print(datoA)
 }
 
 
 //1️⃣1️⃣ Operaciones entre conjuntos
 
+let setA: Set<Int> = [1, 2, 3]
+let setB: Set<Int> = [3, 4, 5]
+
+let unionSet = setA.union(setB) // [1, 2, 3, 4, 5]
+let intersectionSet = setA.intersection(setB) // [3]
+let subtractingSet = setA.subtracting(setB) // [1, 2]
+let symmetricDiffSet = setA.symmetricDifference(setB) // [1, 2, 4, 5]
+
+setA.isSubset(of: setB) // false
+setB.isSuperset(of: setA) // false
+
+setA.isDisjoint(with: setB) // false (tienen el 3)
 
 print(" \n -------------------5-------------------------- \n")
 /*
@@ -212,6 +221,7 @@ print(" \n -------------------5-------------------------- \n")
  Imprime:
  número total de palabras
  número de palabras únicas
+ 
  1️⃣3️⃣ Mini gestor de alumnos
  Usa un diccionario donde:
  clave → nombre del alumno

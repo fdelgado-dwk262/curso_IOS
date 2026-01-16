@@ -45,3 +45,21 @@ for animal in conjuntoAnimales.sorted() {
 // Teoria de conjuntos
 // revisar teoria en union , interseccion y diferencia
 
+
+let setA: Set<Int> = [1, 2, 3]
+let setB: Set<Int> = [3, 4, 5]
+let unionSet = setA.union(setB) // [1, 2, 3, 4, 5]
+
+let intersectionSet = setA.intersection(setB) // [3]
+
+let subtractingSet = setA.subtracting(setB) // [1, 2]
+
+let symmetricDiffSet = setA.symmetricDifference(setB) // [1, 2, 4, 5]
+
+setA.isSubset(of: setB) // false
+setB.isSuperset(of: setA) // false
+
+setA.isDisjoint(with: setB) // false (tienen el 3)
+
+// Notas .-
+// Adición/Eliminación: Métodos como insert(), remove(), y operadores como += (unión) o -= (resta)
