@@ -105,6 +105,7 @@ print(miCocheLujo02.velocidad, miCocheLujo02.asientosCuero)
 // contemas privados
 class Pantalla {
     // private set no podemos modificar la varioable desde fuera pero podemos leer el contenido de esta
+    // revisar conceptop de  .- encapsulacion
     private(set) var ancho : Int
     private(set) var alto : Int
     private(set) var pixel : Int = 0
@@ -121,6 +122,7 @@ class Pantalla {
         actualizarpixel()
     }
     
+    // funciones privadas que solo se usan dentro de la clase y no son visibles desde fuera de esta clase 
     private func actualizarpixel() {
         pixel = ancho * alto
     }

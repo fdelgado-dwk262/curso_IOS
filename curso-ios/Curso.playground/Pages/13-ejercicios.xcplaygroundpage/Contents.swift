@@ -60,7 +60,8 @@ class Tienda {
     
     func agregarExistncias(nombreProducto: String, existencias: Int) {
         
-        // condicional si no es nill ( nulo) 
+        // condicional si no es nill ( nulo)
+        // el siguiente IF es particular y con una funcion anonima
         if let indice = productos.firstIndex(where:{$0.nombre == nombreProducto}) {
             productos[indice].stock += existencias
         }
@@ -83,3 +84,6 @@ print(tienda.totalinventario())
 
 print(tienda.productos.count)
 
+tienda.agregarExistncias(nombreProducto: "Silla", existencias: 10)
+
+print(tienda.mostrarInventario())
