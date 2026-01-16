@@ -121,7 +121,8 @@ for item in arrayEnteros {
 }
 print(suma)
 
-
+// -------------------------------------
+print(" \n --------------------------------------------- \n")
 
  /*
  🟠 Nivel 3 – Diccionarios
