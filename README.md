@@ -53,5 +53,33 @@ URL .- con documenation
 * https://oscarmoreno.com/es/blog/colecciones-swift/
 * https://jsonapi.org
 * https://git-scm.com
+* Fotn https://developer.apple.com/fonts/system-fonts/
+
+Intalacion aparte de iconografia .- 
+SF-Symbols-7
+https://developer.apple.com/sf-symbols/
+
+Saber que version es recomendable usar .- 
+https://iosref.com/ios-usage
+
+----------------------
 
 
+Foundation ( base )
+# programacion, base
+UIKit ( base )
+# diseño ventanas 
+# story board - se queda fuera obsoleto -
+SwiftUI - el que emplearemos .- este nos importa los dos anteriores
+
+Nota .- 
+Tecla option + click derecho
+no da informacion y ayua del código
+y al final hay una "link" que nos lleva a toda la docu
+
+SI pulsamos command y click derecho va a al codigo funete de la funcion concreta
+
+
+Nop deja de ser un Framework y todo esyta acotado
+por ejemplo si posionimaos una propiedad antes de otras o viceversa
+( ejemplo en la vista de texto si alternamos border y padding )
