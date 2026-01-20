@@ -48,12 +48,15 @@ URL .-
 * https://firebase.google.com/?hl=es-419
 * https://github.com
 
+Conversos de color hex to swift
+https://iosref.com/uihex
 
 URL .- con documenation
 * https://oscarmoreno.com/es/blog/colecciones-swift/
 * https://jsonapi.org
 * https://git-scm.com
-* Fotn https://developer.apple.com/fonts/system-fonts/
+* Font .- https://developer.apple.com/fonts/system-fonts/
+* Shape .- https://developer.apple.com/documentation/SwiftUI/Shape
 
 Intalacion aparte de iconografia .- 
 SF-Symbols-7
