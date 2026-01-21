@@ -3,7 +3,9 @@ Curso Sepe Hacerta IOS 300h
 12 enero 2026 - 30 marzo 2026
 
 ## git hub del profesor curso .- 
-https://github.com/eduoie/Curso-iOS
+* https://github.com/eduoie/Curso-iOS
+* https://github.com/eduoie/CursoiOS_vistas_basicas_clase
+
 
 Clonado del proyecto desde el repo
 git clone https://github.com/fdelgado-dwk262/curso_IOS.git
@@ -65,6 +67,9 @@ https://developer.apple.com/sf-symbols/
 Saber que version es recomendable usar .- 
 https://iosref.com/ios-usage
 
+
+App interesante .- https://apps.apple.com/es/app/devcleaner-for-xcode/id1388020431?mt=12
+DevCleaner for Xcode
 ----------------------
 
 
