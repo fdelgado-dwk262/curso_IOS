@@ -49,6 +49,7 @@ URL .-
 * https://developer.apple.com/testflight/
 * https://firebase.google.com/?hl=es-419
 * https://github.com
+* https://brew.sh
 
 Conversos de color hex to swift
 https://iosref.com/uihex
