@@ -54,6 +54,10 @@ URL .-
 Conversos de color hex to swift
 https://iosref.com/uihex
 
+
+URL .- generacion de iconos ios / android
+https://makeappicon.com
+
 URL .- con documenation
 * https://oscarmoreno.com/es/blog/colecciones-swift/
 * https://jsonapi.org
