@@ -28,7 +28,14 @@ Indice .-
 * 14-protocolos
 * 15-protocolos-multiples
 * 16-protocolos-multiples_02. ( == <> ordenacion )
-* 17-closure-anonimas
+* 17-closure-anonimas ( listas )
+* 18-Listas 2ª parte ( listas )
+* 19-listas-profesor
+* 19-listas-profesor II
+* 20-ejercicio
+* 20-extencion vista
+* 21-Aniomaciones
+
 
 Al descargar el proyecto te encuentras dos carpetas
 * curso-ios ( el proyecto de swift )
@@ -50,6 +57,7 @@ URL .-
 * https://firebase.google.com/?hl=es-419
 * https://github.com
 * https://brew.sh
+* https://www.svgator.com/blog/easing-functions/
 
 Conversos de color hex to swift
 https://iosref.com/uihex
