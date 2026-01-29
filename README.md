@@ -6,6 +6,11 @@ Curso Sepe Hacerta IOS 300h
 * https://github.com/eduoie/Curso-iOS
 * https://github.com/eduoie/CursoiOS_vistas_basicas_clase
 
+## Repos asociados del curso
+* https://github.com/fdelgado-dwk262/curso_IOS (Este Repo)
+* https://github.com/fdelgado-dwk262/CursoiOS-vistas-basicas
+* https://github.com/fdelgado-dwk262/Curso_IOS_Navegaciones
+* https://github.com/fdelgado-dwk262/Curso-ios-demoVIajes
 
 Clonado del proyecto desde el repo
 git clone https://github.com/fdelgado-dwk262/curso_IOS.git
