@@ -123,7 +123,9 @@ Style Dictionary permite:
 ### 4.2 Ejemplo de token de color
 
 **Entrada (JSON):**
+
 `
+
     {
       "color": {
         "primary": {
@@ -133,7 +135,9 @@ Style Dictionary permite:
     }
 `
 **Salida Swift (UIKit):**
+
 `
+
     extension UIColor {
         static let primary = UIColor(
             red: 0/255,
