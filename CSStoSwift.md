@@ -1,5 +1,7 @@
- Tutorial: Migración de estilos CSS a Swift (iOS) body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; margin: 40px; color: #222; } h1, h2, h3 { color: #1a1a1a; } h1 { border-bottom: 2px solid #ddd; padding-bottom: 8px; } h2 { margin-top: 32px; border-bottom: 1px solid #eee; padding-bottom: 4px; } pre { background: #f5f5f5; padding: 12px; overflow-x: auto; border-radius: 4px; } code { font-family: Consolas, monospace; } table { border-collapse: collapse; width: 100%; margin: 16px 0; } table th, table td { border: 1px solid #ccc; padding: 8px; text-align: left; } table th { background: #f0f0f0; } ul { margin-left: 20px; } blockquote { border-left: 4px solid #ccc; padding-left: 12px; color: #555; margin: 16px 0; }
-
+ Tutorial: Migración de estilos CSS a Swift (iOS) 
+ `
+ body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; margin: 40px; color: #222; } h1, h2, h3 { color: #1a1a1a; } h1 { border-bottom: 2px solid #ddd; padding-bottom: 8px; } h2 { margin-top: 32px; border-bottom: 1px solid #eee; padding-bottom: 4px; } pre { background: #f5f5f5; padding: 12px; overflow-x: auto; border-radius: 4px; } code { font-family: Consolas, monospace; } table { border-collapse: collapse; width: 100%; margin: 16px 0; } table th, table td { border: 1px solid #ccc; padding: 8px; text-align: left; } table th { background: #f0f0f0; } ul { margin-left: 20px; } blockquote { border-left: 4px solid #ccc; padding-left: 12px; color: #555; margin: 16px 0; }
+`
 Tutorial: Migración de estilos CSS a Swift (iOS)
 ================================================
 
