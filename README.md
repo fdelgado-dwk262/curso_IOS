@@ -39,7 +39,7 @@ Indice .-
 * 19-listas-profesor II
 * 20-ejercicio
 * 20-extencion vista
-* 21-Aniomaciones
+* 21-Animaciones
 
 
 Al descargar el proyecto te encuentras dos carpetas
