@@ -78,6 +78,9 @@ URL .- con documenation
 * Font .- https://developer.apple.com/fonts/system-fonts/
 * Shape .- https://developer.apple.com/documentation/SwiftUI/Shape
 
+URL .- caso de uso de conversión de HEX a RGB + canal alpha
+* https://medium.com/@jakir/use-hex-color-in-swiftui-c19e6ab79220
+
 Intalacion aparte de iconografia .- 
 SF-Symbols-7
 https://developer.apple.com/sf-symbols/
@@ -106,6 +109,6 @@ y al final hay una "link" que nos lleva a toda la docu
 SI pulsamos command y click derecho va a al codigo funete de la funcion concreta
 
 
-Nop deja de ser un Framework y todo esyta acotado
+No deja de ser un Framework y todo esyta acotado
 por ejemplo si posionimaos una propiedad antes de otras o viceversa
 ( ejemplo en la vista de texto si alternamos border y padding )
