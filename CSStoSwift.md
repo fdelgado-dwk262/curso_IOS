@@ -122,7 +122,7 @@ Style Dictionary permite:
 
 ### 4.2 Ejemplo de token de color
 
-**Entrada (JSON):
+Entrada (JSON):
 
 `
 
@@ -134,7 +134,7 @@ Style Dictionary permite:
       }
     }
 `
-**Salida Swift (UIKit):
+Salida Swift (UIKit):
 
 `
 
@@ -147,11 +147,14 @@ Style Dictionary permite:
         )
     }
 `
-**Salida SwiftUI:**
+Salida SwiftUI:
+
 `
+
     extension Color {
         static let primary = Color("primary")
     }
+
 `
 5\. Mapeo CSS → Swift (tabla conceptual)
 ----------------------------------------
@@ -183,7 +186,9 @@ layer.borderColor
 .overlay
 
 ### 5.2 Tipografía
+
 `
+
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -193,11 +198,13 @@ layer.borderColor
     .font(.system(size: 16, weight: .semibold))
     .lineSpacing(8)
 `
-**Recomendación:** centralizar fuentes en un `FontManager`.
+
+Recomendación:** centralizar fuentes en un `FontManager`.
 
 6\. Sistema de estilos en Swift (arquitectura recomendada)
 ----------------------------------------------------------
 `
+
     DesignSystem/
      ├── Colors.swift
      ├── Typography.swift
@@ -208,6 +215,7 @@ layer.borderColor
 7\. Componentización (equivalente a clases CSS)
 -----------------------------------------------
 `
+
     .button-primary {
       background-color: var(--primary-color);
       padding: 16px;
