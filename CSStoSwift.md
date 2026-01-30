@@ -203,6 +203,7 @@ Recomendación:** centralizar fuentes en un `FontManager`.
 
 6\. Sistema de estilos en Swift (arquitectura recomendada)
 ----------------------------------------------------------
+
 `
 
     DesignSystem/
@@ -212,8 +213,10 @@ Recomendación:** centralizar fuentes en un `FontManager`.
      ├── Radius.swift
      ├── Theme.swift
 `
+
 7\. Componentización (equivalente a clases CSS)
 -----------------------------------------------
+
 `
 
     .button-primary {
@@ -232,6 +235,7 @@ Recomendación:** centralizar fuentes en un `FontManager`.
         }
     }
 `
+
 8\. Estados CSS → iOS
 ---------------------
 
