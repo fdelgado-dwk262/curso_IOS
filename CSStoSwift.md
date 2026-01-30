@@ -122,7 +122,7 @@ Style Dictionary permite:
 
 ### 4.2 Ejemplo de token de color
 
-**Entrada (JSON):**
+**Entrada (JSON):
 
 `
 
@@ -134,7 +134,7 @@ Style Dictionary permite:
       }
     }
 `
-**Salida Swift (UIKit):**
+**Salida Swift (UIKit):
 
 `
 
