@@ -1,7 +1,8 @@
- Tutorial: Migración de estilos CSS a Swift (iOS) 
- `
- body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; margin: 40px; color: #222; } h1, h2, h3 { color: #1a1a1a; } h1 { border-bottom: 2px solid #ddd; padding-bottom: 8px; } h2 { margin-top: 32px; border-bottom: 1px solid #eee; padding-bottom: 4px; } pre { background: #f5f5f5; padding: 12px; overflow-x: auto; border-radius: 4px; } code { font-family: Consolas, monospace; } table { border-collapse: collapse; width: 100%; margin: 16px 0; } table th, table td { border: 1px solid #ccc; padding: 8px; text-align: left; } table th { background: #f0f0f0; } ul { margin-left: 20px; } blockquote { border-left: 4px solid #ccc; padding-left: 12px; color: #555; margin: 16px 0; }
-`
+Promt usado en GPT .- 
+Rol .- como mi experto ayudante y asesor en programación de entornos Swift, eres titulado en ingeniería informática y especializado en IOS Swift con mas de 10 años de experiencia Orden y objetivo .- Prepárame un tutorial detallado para poder pasar CSS a Swift con los pasos y herramientas y/o conversiones automatiocas Contexto .- Se usará en una migración de los estilos de una web a una aplicación para que mantenga la coherencia visual, colores, textos, separaciones etc... definido en todo el cls Estilo .- la respuesta debe de tener una estructura detallada del proceso de migración para poderlo realizar, debe de ser claro y sin entrar en tópicos, sin omitir pasos, sin emoticónos y todo preparado con un lenguaje técnico pero comprensible
+
+Respuesta GPT .- 
+
 Tutorial: Migración de estilos CSS a Swift (iOS)
 ================================================
 
@@ -79,7 +80,7 @@ Antes de convertir nada, debes **auditar y clasificar** el CSS:
 ### 3.1 ¿Qué son Design Tokens?
 
 Son valores de diseño desacoplados de la tecnología:
-
+`
     {
       "color": {
         "primary": "#0057FF",
@@ -93,6 +94,7 @@ Son valores de diseño desacoplados de la tecnología:
         "base": "Roboto"
       }
     }
+`
 
 ### 3.2 Herramientas recomendadas
 
@@ -121,7 +123,7 @@ Style Dictionary permite:
 ### 4.2 Ejemplo de token de color
 
 **Entrada (JSON):**
-
+`
     {
       "color": {
         "primary": {
@@ -129,9 +131,9 @@ Style Dictionary permite:
         }
       }
     }
-
+`
 **Salida Swift (UIKit):**
-
+`
     extension UIColor {
         static let primary = UIColor(
             red: 0/255,
@@ -140,13 +142,13 @@ Style Dictionary permite:
             alpha: 1
         )
     }
-
+`
 **Salida SwiftUI:**
-
+`
     extension Color {
         static let primary = Color("primary")
     }
-
+`
 5\. Mapeo CSS → Swift (tabla conceptual)
 ----------------------------------------
 
@@ -177,7 +179,7 @@ layer.borderColor
 .overlay
 
 ### 5.2 Tipografía
-
+`
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -186,22 +188,22 @@ layer.borderColor
 
     .font(.system(size: 16, weight: .semibold))
     .lineSpacing(8)
-
+`
 **Recomendación:** centralizar fuentes en un `FontManager`.
 
 6\. Sistema de estilos en Swift (arquitectura recomendada)
 ----------------------------------------------------------
-
+`
     DesignSystem/
      ├── Colors.swift
      ├── Typography.swift
      ├── Spacing.swift
      ├── Radius.swift
      ├── Theme.swift
-
+`
 7\. Componentización (equivalente a clases CSS)
 -----------------------------------------------
-
+`
     .button-primary {
       background-color: var(--primary-color);
       padding: 16px;
@@ -217,7 +219,7 @@ layer.borderColor
                 .opacity(configuration.isPressed ? 0.8 : 1)
         }
     }
-
+`
 8\. Estados CSS → iOS
 ---------------------
 
