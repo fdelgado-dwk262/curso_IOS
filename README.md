@@ -11,6 +11,7 @@ Curso Sepe Hacerta IOS 300h
 * https://github.com/fdelgado-dwk262/CursoiOS-vistas-basicas
 * https://github.com/fdelgado-dwk262/Curso_IOS_Navegaciones
 * https://github.com/fdelgado-dwk262/Curso-ios-demoVIajes
+* https://github.com/fdelgado-dwk262/property-wrappers-IOS ( observables )
 
 Clonado del proyecto desde el repo
 git clone https://github.com/fdelgado-dwk262/curso_IOS.git
