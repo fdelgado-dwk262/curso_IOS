@@ -14,6 +14,8 @@ Curso Sepe Hacerta IOS 300h
 * https://github.com/fdelgado-dwk262/property-wrappers-IOS ( observables )
 * https://github.com/fdelgado-dwk262/Persistencia-Navegacion-IOS
 * https://github.com/fdelgado-dwk262/Curso-iOS-Asincronia
+* https://github.com/fdelgado-dwk262/Curso-ios-ApiRest
+* https://github.com/fdelgado-dwk262/Curso-ios-api-RickAndMorty
 
 Clonado del proyecto desde el repo
 git clone https://github.com/fdelgado-dwk262/curso_IOS.git
