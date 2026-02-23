@@ -117,3 +117,7 @@ SI pulsamos command y click derecho va a al codigo funete de la funcion concreta
 No deja de ser un Framework y todo esyta acotado
 por ejemplo si posionimaos una propiedad antes de otras o viceversa
 ( ejemplo en la vista de texto si alternamos border y padding )
+
+
+# cosas de la api y swifdata
+https://es.wikipedia.org/wiki/SOLID
