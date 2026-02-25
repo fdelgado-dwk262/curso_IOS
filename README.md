@@ -17,6 +17,16 @@ Curso Sepe Hacerta IOS 300h
 * https://github.com/fdelgado-dwk262/Curso-ios-ApiRest
 * https://github.com/fdelgado-dwk262/Curso-ios-api-RickAndMorty
 
+
+
+* https://github.com/fdelgado-dwk262/Curso-ios-GestionAlumnos-swiftData
+* https://github.com/fdelgado-dwk262/Curso-ios-swiftData
+* https://github.com/fdelgado-dwk262/esdediaodenoche
+* https://github.com/fdelgado-dwk262/Curso-iOS-SwiftData-MVVM
+* https://github.com/fdelgado-dwk262/Curso-ios-Apis
+* https://github.com/fdelgado-dwk262/curso_IOS
+
+
 Clonado del proyecto desde el repo
 git clone https://github.com/fdelgado-dwk262/curso_IOS.git
 
