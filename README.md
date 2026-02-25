@@ -16,27 +16,16 @@ Curso Sepe Hacerta IOS 300h
 * https://github.com/fdelgado-dwk262/Curso-iOS-Asincronia
 * https://github.com/fdelgado-dwk262/Curso-ios-ApiRest
 * https://github.com/fdelgado-dwk262/Curso-ios-api-RickAndMorty
-
-
-
 * https://github.com/fdelgado-dwk262/Curso-ios-GestionAlumnos-swiftData
 * https://github.com/fdelgado-dwk262/Curso-ios-swiftData
 * https://github.com/fdelgado-dwk262/esdediaodenoche
 * https://github.com/fdelgado-dwk262/Curso-iOS-SwiftData-MVVM
-* https://github.com/fdelgado-dwk262/Curso-ios-Apis
-* https://github.com/fdelgado-dwk262/curso_IOS
 * https://github.com/fdelgado-dwk262/Curso-ios-api-eltiempo
 * https://github.com/fdelgado-dwk262/Curso-ios-repositorio
-* https://github.com/fdelgado-dwk262/Curso-ios-api-RickAndMorty
-* https://github.com/fdelgado-dwk262/Curso-ios-ApiRest
-* https://github.com/fdelgado-dwk262/Curso-iOS-Asincronia
 * https://github.com/fdelgado-dwk262/Es-de-dia-o-de-noche-IOS
-* https://github.com/fdelgado-dwk262/CursoiOS-vistas-basicas
-* https://github.com/fdelgado-dwk262/Persistencia-Navegacion-IOS
-* https://github.com/fdelgado-dwk262/property-wrappers-IOS
 * https://github.com/fdelgado-dwk262/Lista-de-la-compra-IOS
-* https://github.com/fdelgado-dwk262/Curso-ios-demoVIajes
-* https://github.com/fdelgado-dwk262/Curso_IOS_Navegaciones
+* https://github.com/fdelgado-dwk262/Curso-ios-Apis
+
 
 
 Clonado del proyecto desde el repo
